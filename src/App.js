@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
+import Homepage from "./Page/HomePage/็Homepage";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
             </a>
           </header>
         </div>
+      </Route>
+      <Route path="/home">
+        <Homepage />
       </Route>
     </Switch>
   );

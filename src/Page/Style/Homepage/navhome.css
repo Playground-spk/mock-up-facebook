@@ -1,0 +1,14 @@
+.nav-home {
+    width: 100%;
+    height: 42px;
+    background-color: #4267b2
+}
+
+.nav-home .nav-body {
+    width: 1012px;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
