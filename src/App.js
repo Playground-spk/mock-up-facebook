@@ -3,11 +3,12 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import Homepage from "./Page/HomePage/็Homepage";
+import "antd/dist/antd.css";
 
 function App() {
   return (
     <Switch>
-      <Route path="/">
+      <Route exact path="/">
         <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />

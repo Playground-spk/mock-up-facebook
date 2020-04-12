@@ -1,14 +1,92 @@
 .nav-home {
-    width: 100%;
-    height: 42px;
-    background-color: #4267b2
+  width: 100%;
+  height: 42px;
+  background-color: #4267b2;
 }
 
 .nav-home .nav-body {
-    width: 1012px;
-    height: 100%;
-    color: white;
-    display: flex;
-    flex-direction: column;
+  width: 1012px;
+  height: 100%;
+  color: white;
+}
 
+.nav-body .left {
+  width: 100%;
+  height: 100%;
+}
+
+.left .logo-icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/qdKQ8uqmxdw.png);
+  background-repeat: no-repeat;
+  background-size: 34px 630px;
+  background-position: 0 -34px;
+  display: block;
+  height: 24px;
+  outline: none;
+  overflow: hidden;
+  text-indent: -999px;
+  white-space: nowrap;
+  width: 24px;
+}
+
+.left .search-bar {
+  background-color: #fff;
+  border: 1px solid #3b5998;
+  border-radius: 3px;
+  box-sizing: border-box;
+  height: 26px;
+  min-width: 114px;
+  width: 448px;
+  margin-left: 5px;
+}
+
+.search-bar .input-search {
+  width: 393px;
+  height: 23px;
+  border-width: 0px;
+  border: none;
+  color: black;
+  outline: none;
+}
+
+.search-bar .icon-search {
+  width: 46px;
+  height: 24px;
+  border-width: 0px;
+  border: none;
+  background-color: #f5f6f7;
+}
+
+.icon-search > div {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+  background-repeat: no-repeat;
+  background-size: 28px 1022px;
+  background-position: 0 -990px;
+  cursor: pointer;
+  display: block;
+  height: 14px;
+
+  width: 14px;
+  z-index: 2;
+  margin: auto;
+}
+
+.nav-body .right {
+  height: 100%;
+}
+
+.right .avatar-main {
+  width: 209px;
+}
+.avatar-main .avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-image: url(https://scontent.futp1-1.fna.fbcdn.net/v/t1.0-9/p960x960/55564273_1100669830136257_2977309224083652608_o.jpg?_nc_cat=105&_nc_sid=85a577&_nc_eui2=AeHkz2oCMLj7k5D3E-R_MvnGV8XwnTVj771XxfCdNWPvvRYa0tbDYVllZDzLl25DsdUQbeWJmQTvRsACaFPR7Zo1&_nc_ohc=vFdtu0rxgcwAX9bQeMA&_nc_ht=scontent.futp1-1.fna&_nc_tp=6&oh=4eca43e290eaefb3a6a85d62e0ebe227&oe=5EBA2823);
+}
+.right .icon-menu {
+  width: 117px;
+}
+.right .help-menu {
+  width: 111px;
 }

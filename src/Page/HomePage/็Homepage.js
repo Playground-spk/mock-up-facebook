@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 import { Col, Row } from "antd";
+import NavHome from "./NavHome";
 
 export default class Homepage extends Component {
   render() {
     return (
       <Col className="Homepage">
-        <Row className="nav-home" justify="center">
-          <Col className="nav-body"></Col>
+        <NavHome />
+
+        <Row justify="center" align="middle">
+          body home pages
         </Row>
-        <Row></Row>
       </Col>
     );
   }
